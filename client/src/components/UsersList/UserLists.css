@@ -1,0 +1,50 @@
+.usersOuter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+    height: 80%;
+    border-radius: 5px;
+    width: 20%;
+    margin-right: 20px;
+
+}
+.headers {
+    background: #606fe79e;
+    border-radius: 4px 4px 0 0;
+    height: 40px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+.usersInner{
+    height: calc(100% - 40px);
+    overflow: scroll;
+}
+
+.users{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.user-name{
+    font-size: 14px;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width : 767px){
+    .usersOuter {
+        display: block;
+        background: #FFFFFF;
+        height: 30%;
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+}
